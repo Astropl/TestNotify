@@ -1,10 +1,8 @@
 package com.example.testnotify
 
 import android.Manifest
-import android.app.Notification
 import android.service.notification.NotificationListenerService
 import android.service.notification.StatusBarNotification
-import android.util.Log
 import androidx.annotation.RequiresPermission
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
@@ -14,7 +12,6 @@ import java.util.Locale
 
 class BankNotificationListener : NotificationListenerService() {
 
-    private val bankPackage = "com.twojbank.app"
     private val gmailPackage = "com.google.android.gm"
     private lateinit var tts: TextToSpeech
     private var ttsReady = false

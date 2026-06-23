@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TestNotify</string>
+    <string name="settings">Settings</string>
+    <string name="DostepDoPowiadomien">Dostęp do powiadomień</string>
 </resources>
