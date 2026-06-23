@@ -1,0 +1,10 @@
+2026.06.23
+- Activity Home
+    - wyświetlanie aktywnych słów kluczowych i powiadomień z info czy właczone czy nie.
+    - button: przejscie do Settings
+- Activity Settings
+    - wyświetlanie słów kluczowych i powiadomień
+        - włączanie Nasłuchiuwania i odpowiedz w głosie
+    - dodawania słów kluczowych i powiadomienia
+    - kasowania słów kluczowych i powiadomień
+- LOG ( Activity History)

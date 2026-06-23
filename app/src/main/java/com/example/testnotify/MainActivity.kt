@@ -12,8 +12,12 @@ class MainActivity : AppCompatActivity() {
         createChannel()
 
         // 👉 od razu prośba o dostęp do powiadomień
-        val intent = Intent("android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS")
-        startActivity(intent)
+
+        //TODO()://startActivity("android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS")
+
+        startActivity(Intent(this, Home::class.java))
+        finish()
+
     }
 
     private fun createChannel() {
