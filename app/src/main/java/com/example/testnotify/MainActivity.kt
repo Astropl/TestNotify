@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         //TODO()://startActivity("android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS")
 
-        startActivity(Intent(this, Home::class.java))
+        startActivity(Intent(this, HomeActivity::class.java))
         finish()
 
     }

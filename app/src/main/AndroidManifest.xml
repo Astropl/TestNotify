@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
-            android:name=".Settings"
+            android:name=".SettingsActivity"
             android:exported="false" />
         <activity
-            android:name=".Home"
+            android:name=".HomeActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
