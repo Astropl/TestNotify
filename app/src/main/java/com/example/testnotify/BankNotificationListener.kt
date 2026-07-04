@@ -27,7 +27,7 @@ class BankNotificationListener : NotificationListenerService() {
         // Reaguj tylko na Gmail
         if (sbn.packageName == gmailPackage) {
 
-            val message = "Hej, Gmail właśnie wpłynął"
+            val message = "Hej, dżi-mejl właśnie wpłynął"
             speak(message)
             val notification = NotificationCompat.Builder(this, "testnotify_channel")
                 .setSmallIcon(android.R.drawable.ic_dialog_email)
